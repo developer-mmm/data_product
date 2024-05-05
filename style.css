@@ -1,0 +1,53 @@
+.products {
+    width: 600px;
+    margin: 60px auto;
+}
+
+.products div {
+    width: 600px;
+    text-align: center;
+    padding: 50px 0px;
+    margin-bottom: 80px;
+    background-color: rgb(132, 38, 38);
+    border-radius: 12px;
+    transition: all 0.8s ease-in-out;
+}
+
+.products div:hover {
+    cursor: pointer;
+    box-shadow: 8px 20px 40px rgba(54, 8, 132, 0.829);
+    transition: all 0.8s ease-in-out;
+}
+
+.products div h1 {
+    font-size: 49px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: slateblue;
+}
+
+.products div p {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    padding: 0px 20px;
+    line-height: 32px;
+}
+
+.products div img {
+    margin-top: -52px;
+    border-radius: 12px;
+}
+
+.products div h4 {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+}
+
+.products div h6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: chartreuse;
+}
